@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Input Elements</title>
+    </head>
+    <body>
+        <p>
+            Application for Drivers licence
+        </p>
+        <br>
+        <form method="post">
+            Date Of Birth: <input type="date" placeholder="" required="required">  <br/><br/>
+            Gender: <input type="radio" name="male">Male
+                    <input type="radio" name="Female">Female <br/><br/>
+            PAN: <input type="text" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxlength="10"> <br/><br/>
+            LL No: <input type="text" required="required" maxlength="12" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> <br/><br/>
+            
+            <input type="submit">
+        </form>
+    </body>
+</html>
