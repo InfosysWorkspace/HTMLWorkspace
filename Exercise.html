@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Special Input Types Demo</title>
+</head>
+<body>
+<h3><center>Customer Registration</center></h3><br><br>
+    <center>
+        <form name="custForm"> 
+                User Name	: <input text="text" placeholder="Enter your name, e.g Buhari Maiwada" >    <br><br><!-- focus is here when page is loaded) -->
+                Password 	: <input type="password" minlength="8" maxlength="12" name="password" required="required">    <br><br>	<!-- password should contain alphabets imposed using pattern attribute -->
+                Email	:    <input type="email" size="30" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/> <br><br>  <!-- autocomplete provides auto fill feature when set to 'on' -->
+                Gender: <input type="radio" name="gender" id="male" value="male">Male:
+                        <input type="radio" name="gender" id="female" value="female">Female:<br><br><!-- radio buttons-->
+                Age (Yrs)	:  <input type="number" placeholder="Enter your age">   <br><br>	<!-- required attribute : Age is necessary -->
+                Address:   <input type="text" placeholder="Enter your full addres"><br><br>
+
+                Company website:  <input type="url" name="url" id="url"
+                                            placeholder="https://example.com"
+                                            pattern="https://.*" >  <br><br>
+
+                Choose country:<label for="country">Country:</label>
+                                    <select name="country" id="country">
+                                        <option value="us">US</option>
+                                        <option value="nigeria">Nigeria</option>
+                                        <option value="uk">UK</option>
+                                    </select>
+                <br><br>
+                Date of Journey: <input type="date" id="start" name="trip-start"
+                                            value="2018-07-22"
+                                            min="2018-01-01" max="2018-12-31">
+            <br><br>
+        </form>
+    </center>
+</body>
+</html>

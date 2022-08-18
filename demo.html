@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Art </title>
+    </head>
+    <body>
+        <p> Art is a form of life. It is one of the diverse range of human activities that 
+            requires imaginative skills, technical skills and conceptual ideas that intend to
+             appreciated for its own beauty and emotions. 
+        </p>
+        <p>
+            Art has different forms. They are Visual Arts, Applied Arts and Performing Arts.
+        </p>
+
+        <!---SELECT ELEMENT-->
+        <label for="dropdown_list">Dropdown</label>
+        <select id="dropdown_list">
+            <option> option 1</option>
+            <option> option 2</option>
+        </select>
+
+        <!---DATALIST-->
+        <label for="dropdown_list">Choose your stream</label>
+            <input list="sreams" name="stream" id="stream">
+            <datalist id="dropdown_list">
+                <option value="option 1"> option 1</option>
+                <option value="option 2"> option 2</option>
+                <option value="option 3"> option 3</option>
+                <option value="option 4"> option 4</option>
+            </datalist>
+
+        <br/>
+        <!---TEXTAREA-->
+        <label for="textArea">Textarea</label>
+        <textarea id="textarea" rows="2" cols="15"></textarea>
+
+        <!---SUBMIT-->
+        <button type="submit" >Submit</button>
+
+         <!---DIV-->
+        <div>
+            <p>This is a first paragraph</p>
+            <p>This is a second paragraph</p>
+            <p>This is a third paragraph</p>
+        </div>
+
+         <!---SPAN-->
+        <p>
+            <span>Span text1 goes here!!</span>
+            <span>Span text2 goes here!!</span>
+            <span>Span text3 goes here!!</span>
+        </p>
+
+        <form>
+            Name:<input type="text" placeholder="Enter your name e.g. Buhari Maiwada"><br>
+            Age:<input type="number" placeholder="Enter age above 18"><br>
+            Date of Birth:<input type="date"><br>
+            E-mail: <input type="email" placeholder="Enter you business Id"><br>
+            What is your favorite color: <input type="color"><br>
+            Rate your course: <input type="range" name="points" min="0" max="10"><br>
+        </form>
+
+        <form>
+            <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="gender">Specify your gender:</label>
+            <input type="radio" name="gender" id="male" value="male">Male
+            <input type="radio" name="gender" id="female" value="female">Female
+            <input type="radio" name="gender" id="others" value="others">Others
+        </div>
+        <div>
+            <label for="hobbies">What are your Hobbies</label>
+            <input type="checkbox" id="Writing" name="hobbies" value="Writing">Writing
+            <input type="checkbox" id="singing" name="hobbies" value="singing">Singing
+            <input type="checkbox" id="travelling" name="hobbies" value="travelling">Singing
+        </div>
+        <div>
+            <label for="superhero">Your Favourite Super hero</label>
+            <select id="superhero">
+                <option value="">Select</option>
+                <option value="goku">Goku</option>
+                <option value="Vegeta">Vegeta</option>
+                <option value="batman">Batman</option>
+                <option value="thor">Thor</option>
+                <option value="Wolverine">Wolverine</option>
+            </select>
+        </div>
+        </form>
+        
+    </body>
+</html>
